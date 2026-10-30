@@ -1,0 +1,29 @@
+# Виртуальное окружение
+.venv/
+venv/
+env/
+
+# База данных и личные данные (ваши доходы и заметки)
+*.db
+*.sqlite3
+
+# Мусор Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Сборка PyInstaller
+build/
+dist/
+*.spec
+
+# Архивы релизов (их нужно заливать через GitHub Releases, а не через код)
+*.zip
+*.tar.gz
+*.7z
+
+# Файлы IDE и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
